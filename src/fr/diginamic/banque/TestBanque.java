@@ -7,5 +7,6 @@ public class TestBanque {
         Compte monCompte = new Compte(1, 1000);
 
         System.out.println("Numéro du compte: "+monCompte.numeroCompte+" Solde du compte: "+monCompte.solde+" €");
+        System.out.println(monCompte);
     }
 }
