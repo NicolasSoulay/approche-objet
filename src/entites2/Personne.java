@@ -16,16 +16,16 @@ public class Personne {
     }
 
     public Personne setNom(String nvNom) {
-        prenom = nvNom;
+        this.prenom = nvNom;
         return this;
     }
     public Personne setPrenom(String nvPrenom) {
-        prenom = nvPrenom;
+        this.prenom = nvPrenom;
         return this;
     }
 
     public Personne setAdresse(AdressePostale nvAdresse) {
-        adressePostale = nvAdresse;
+        this.adressePostale = nvAdresse;
         return this;
     }
 
