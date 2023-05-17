@@ -11,4 +11,33 @@ public class Personne {
         prenom = nvPrenom;
         adressePostale = nvAdresse;
     }
+    public void afficheNomPrenom() {
+        System.out.println(nom.toUpperCase()+" "+prenom);
+    }
+
+    public Personne setNom(String nvNom) {
+        prenom = nvNom;
+        return this;
+    }
+    public Personne setPrenom(String nvPrenom) {
+        prenom = nvPrenom;
+        return this;
+    }
+
+    public Personne setAdresse(AdressePostale nvAdresse) {
+        adressePostale = nvAdresse;
+        return this;
+    }
+
+    public String getNom() {
+        return this.nom;
+    }
+
+    public String getPrenom() {
+        return this.prenom;
+    }
+
+    public AdressePostale getAdresse() {
+        return this.adressePostale;
+    }
 }
